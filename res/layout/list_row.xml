@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/city"
+            android:layout_toRightOf="@+id/imageA"
+            android:layout_marginLeft="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:text="City"
+            />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_toRightOf="@+id/imageA"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:text="Date"
+            />
+    </LinearLayout>
+
+<RelativeLayout
+    android:layout_marginTop="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageA"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        />
+
+    <TextView
+        android:id="@+id/txtNameA"
+        android:layout_toRightOf="@+id/imageA"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:text="Score A"
+        />
+
+    <TextView
+        android:id="@+id/txtSub"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageA"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:text="Team A Name"
+        />
+
+    <TextView
+        android:id="@+id/txtNameB"
+        android:layout_toRightOf="@+id/txtNameA"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:text="Score B"
+        />
+
+    <ImageView
+        android:id="@+id/imageB"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/txtNameB"
+        />
+
+    <TextView
+        android:id="@+id/txtSubB"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="-80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/imageB"
+        android:layout_below="@id/imageB"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:text="Team B Name"
+        />
+
+
+
+
+
+</RelativeLayout>
+
+
+</RelativeLayout>

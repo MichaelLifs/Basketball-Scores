@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="50dp"
+    tools:context=".MichaelActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+
+
+        android:layout_height="300dp"
+        android:src="@drawable/michael"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:text="Michael Lifshitz"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:text="311407902"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Karmiel"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="MichaelLif8@gmail.com"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="0546-366-116"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Application design and programming"/>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Basketball</string>
+    <array name="teams">
+        <item>Select Team</item>
+        <item>Maccabi Tel Aviv</item>
+        <item>Hapoel Tel Aviv</item>
+        <item>Hapoel Jerusalem</item>
+        <item>Hapoel Eilat</item>
+        <item>Hapoel Gilboa Galil</item>
+        <item>Maccabi Haifa</item>
+        <item>Hapoel Haifa</item>
+        <item>Hapoel Holon</item>
+        <item>Maccabi Rishon Lezion</item>
+        <item>Bnei Herzliya</item>
+        <item>Ironi Ness Ziona</item>
+        <item>Hapoel Beer Sheva</item>
+        <item>Ironi Nahariya</item>
+    </array>
+    <array name="cities">
+        <item>Select City</item>
+        <item>Tel Aviv</item>
+        <item>Holon</item>
+        <item>Jerusalem</item>
+        <item>Eilat</item>
+        <item>Haifa</item>
+        <item>Nahariya</item>
+        <item>Beer Sheva</item>
+        <item>Ness Ziona</item>
+        <item>Gilboa</item>
+        <item>Herzliya</item>
+        <item>Rishon Lezion</item>
+    </array>
+</resources>

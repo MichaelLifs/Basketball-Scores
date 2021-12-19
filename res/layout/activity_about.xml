@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp">
+
+            <ImageView
+                android:layout_width="305dp"
+                android:layout_height="77dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:gravity="center"
+                android:text="About"
+                android:textColor="#ffffff"
+                android:textSize="28sp"
+
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/michaelPic"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toLeftOf="@+id/zoharPic"
+                android:src="@drawable/michael" />
+
+            <ImageView
+                android:id="@+id/zoharPic"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginLeft="35dp"
+                android:layout_toRightOf="@+id/michaelPic"
+                android:src="@drawable/zohar" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="175dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="35dp"
+                android:text="Michael Lifshitz"
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="175dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="35dp"
+                android:text="Zohar Reshef"
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/about_title"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_height="50dp"
+                android:text="About the project"
+                android:textSize="24sp"
+                android:gravity="center_horizontal"></TextView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/about_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="About The Project"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/about_rights"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:layout_height="50dp"
+                android:textStyle="bold"
+                android:text="All Rights Reserved 2021 ©"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"></TextView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
